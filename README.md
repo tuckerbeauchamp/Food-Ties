@@ -12,11 +12,11 @@ SO THAT this knowledge will empower me to move forward with my life
 
 This application is a fun quiz, using food choices to provide the user with a generalized personality evaluation.
 
-![FoodTies]()
+<!-- ![FoodTies]() -->
 
 ## Wireframe
 
-![FoodTiesWireframe]()
+![FoodTiesWireframe](https://user-images.githubusercontent.com/77896188/113917470-18afe000-9796-11eb-8c2b-3cadfc2eb358.png)
 
 ## Table of Contents
 
