@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Basic",
+    "description": "You probably live at home with your parents and solely eat Kraft Macaroni and Cheese on for all three of your meals. Please develop your taste buds.",
+    "image_url": "password12345",
+    "user_id": 1
+  },
+  {
+    "title": "Spicy",
+    "description": "al@hotmail.com",
+    "image_url": "password",
+    "user_id": 2
+  },
+  {
+    "title": "Homebody",
+    "description": "al@hotmail.com",
+    "image_url": "password",
+    "user_id": 3
+  },
+  {
+    "title": "Homebody",
+    "description": "al@hotmail.com",
+    "image_url": "password",
+    "user_id": 4
+  },
+  {
+    "title": "Adventurer",
+    "description": "al@hotmail.com",
+    "image_url": "password",
+    "user_id": 5
+  },
+  {
+    "title": "Homebody",
+    "description": "al@hotmail.com",
+    "image_url": "password",
+    "user_id": 6
+  }
+]
