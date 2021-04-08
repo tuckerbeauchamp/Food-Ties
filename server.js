@@ -1,3 +1,32 @@
+const express = require("express");
+const app = express();
+const path = require("path");
+const exphbs = require('express-handlebars');
+
+const PORT = process.env.PORT || 7500;
+// const sequelize = require('./config/connection');
+const hbs = exphbs.create({});
+
+//Middleware
+app.engine('handlebars', hbs.engine);
+app.set('view engine', 'handlebars');
+app.use(express.urlencoded({ extended: true}))
+app.use(express.json());
+app.use(express.static(path.join(__dirname, 'public')));
+
+
+app.get('/',function(req,res){
+    res.render("homepage",{data: myArray})
+})
+
+
+
+
+app.listen(PORT, () => console.log("App listening on port " + PORT));
+
+//const fixPath = arr => arr.map(group => group.images.map(i => i.image_url.slice(7)))
+const fixPath = arr => arr.forEach(group => group.images.forEach(img => img.image_url = img.image_url.slice(7)))
+
 const myArray = [
     {
     //first 4 personalities you see when taking quiz. the first question
@@ -37,7 +66,7 @@ const myArray = [
             // for the Personality
             persId: "adventurer",
             //URL for choice. Do path from folder
-            image_url: "public/images/Russian-beef- stroganoff.jpg",
+            image_url: "public/images/Russian-beef-stroganoff.jpg",
             //describes image
             alt: "Beef Stroganoff"
             },
@@ -290,4 +319,6 @@ const myArray = [
             },
         ]
     },
-]
+];
+fixPath(myArray)
+console.log(myArray[0])

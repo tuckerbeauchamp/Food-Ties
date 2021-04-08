@@ -1,38 +1,26 @@
 [
   {
-    "title": "Basic",
-    "description": "You probably live at home with your parents and solely eat Kraft Macaroni and Cheese on for all three of your meals. Please develop your taste buds.",
-    "image_url": "password12345",
+    "title": "Adventurer",
+    "description": "Huzzah, you are an Adventurer! You are always seeking new stuff to try.",
+    "image_url": "public/personality-images/tightrope.jpeg",
     "user_id": 1
   },
   {
-    "title": "Spicy",
-    "description": "al@hotmail.com",
-    "image_url": "password",
+    "title": "Homebody",
+    "description": "You want your home and nothing but your home. Anything new is not the way.",
+    "image_url": "public/personality-images/bubble boy.jpeg",
     "user_id": 2
   },
   {
-    "title": "Homebody",
-    "description": "al@hotmail.com",
-    "image_url": "password",
+    "title": "Sweet",
+    "description": "You've got a Sweet Tooth Baybe! love the sweets, die with the sweets.",
+    "image_url": "public/personality-images/candy.jpeg",
     "user_id": 3
   },
   {
-    "title": "Homebody",
-    "description": "al@hotmail.com",
-    "image_url": "password",
+    "title": "Spicy",
+    "description": "Fiiiiiiiiiiyyyyaaaahhh, UUH! Blazin' saddles that's hot!",
+    "image_url": "public/personality-images/spicy.png",
     "user_id": 4
-  },
-  {
-    "title": "Adventurer",
-    "description": "al@hotmail.com",
-    "image_url": "password",
-    "user_id": 5
-  },
-  {
-    "title": "Homebody",
-    "description": "al@hotmail.com",
-    "image_url": "password",
-    "user_id": 6
   }
 ]
