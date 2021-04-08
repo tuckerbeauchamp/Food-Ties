@@ -6,26 +6,26 @@ const myArray = [
     images: [
         {
         // for the Personality
-        persId: "spicy",
+        persId: "adventurer",
         //URL for choice. Do path from folder
-        image_url: "ogijerwoigjeroigjr",
+        image_url: "public/images/American_chickenandwaffles.jpg",
         //describes image
-        alt: "fwfwefwefwef"
-        },
-        {
-        persId: "basic",
-        image_url: "wefjwefwefwef",
-        alt: "describe"
+        alt: "Chicken and Waffles "
         },
         {
         persId: "homebody",
-        image_url: "wefjwefwefwef",
-        alt: "describe"
+        image_url: "public/images/American_hamburger.jpeg",
+        alt: "Hamburger"
         },
         {
-        persId: "adventurer",
-        image_url: "wefjwefwefwef",
-        alt: "describe"
+        persId: "sweet",
+        image_url: "public/images/American_smores.jpg",
+        alt: "S'more"
+        },
+        {
+        persId: "spicy",
+        image_url: "public/images/American_hotwings.jpg",
+        alt: "Hot Wings"
         },
     ]
     },
@@ -35,26 +35,26 @@ const myArray = [
         images: [
             {
             // for the Personality
-            persId: "spicy",
+            persId: "adventurer",
             //URL for choice. Do path from folder
-            image_url: "ogijerwoigjeroigjr",
+            image_url: "public/images/Russian-beef- stroganoff.jpg",
             //describes image
-            alt: "fwfwefwefwef"
-            },
-            {
-            persId: "basic",
-            image_url: "wefjwefwefwef",
-            alt: "describe"
+            alt: "Beef Stroganoff"
             },
             {
             persId: "homebody",
-            image_url: "wefjwefwefwef",
-            alt: "describe"
+            image_url: "public/images/Russian-Borscht.jpg",
+            alt: "Borscht"
             },
             {
-            persId: "adventurer",
-            image_url: "wefjwefwefwef",
-            alt: "describe"
+            persId: "sweet",
+            image_url: "public/images/Russian_blini.jpg",
+            alt: "Blini"
+            },
+            {
+            persId: "spicy",
+            image_url: "public/images/Russian-soup.jpg",
+            alt: "Spicy Soup"
             },
         ]
     },
@@ -64,26 +64,26 @@ const myArray = [
         images: [
             {
             // for the Personality
-            persId: "spicy",
+            persId: "adventurer",
             //URL for choice. Do path from folder
-            image_url: "ogijerwoigjeroigjr",
+            image_url: "public/images/Japan_sushi.jpg",
             //describes image
-            alt: "fwfwefwefwef"
-            },
-            {
-            persId: "basic",
-            image_url: "wefjwefwefwef",
-            alt: "describe"
+            alt: "Sushi"
             },
             {
             persId: "homebody",
-            image_url: "wefjwefwefwef",
-            alt: "describe"
+            image_url: "public/images/Japan_ramen.jpg",
+            alt: "Ramen"
             },
             {
-            persId: "adventurer",
-            image_url: "wefjwefwefwef",
-            alt: "describe"
+            persId: "sweet",
+            image_url: "public/images/Japan_mochi.jpeg",
+            alt: "Mochi"
+            },
+            {
+            persId: "spicy",
+            image_url: "public/images/Japan_chickenkatsu.jpg",
+            alt: "Chicken Katsu"
             },
         ]
     },
@@ -93,26 +93,26 @@ const myArray = [
         images: [
             {
             // for the Personality
-            persId: "spicy",
+            persId: "adventurer",
             //URL for choice. Do path from folder
-            image_url: "ogijerwoigjeroigjr",
+            image_url: "public/images/Italian_lasagna.jpeg",
             //describes image
-            alt: "fwfwefwefwef"
-            },
-            {
-            persId: "basic",
-            image_url: "wefjwefwefwef",
-            alt: "describe"
+            alt: "Lasagna"
             },
             {
             persId: "homebody",
-            image_url: "wefjwefwefwef",
-            alt: "describe"
+            image_url: "public/images/Italian_chickenandpolenta.jpeg",
+            alt: "Chicken and Polenta"
             },
             {
-            persId: "adventurer",
-            image_url: "wefjwefwefwef",
-            alt: "describe"
+            persId: "sweet",
+            image_url: "public/images/Italian_tiramisu.jpeg",
+            alt: "Tiramisu"
+            },
+            {
+            persId: "spicy",
+            image_url: "public/images/Italian_penne_all.jpeg",
+            alt: "Penne all'arrabbiata "
             },
         ]
     },
@@ -122,26 +122,26 @@ const myArray = [
         images: [
             {
             // for the Personality
-            persId: "spicy",
+            persId: "adventurer",
             //URL for choice. Do path from folder
-            image_url: "ogijerwoigjeroigjr",
+            image_url: "public/images/Thailand_padthai.jpeg",
             //describes image
-            alt: "fwfwefwefwef"
-            },
-            {
-            persId: "basic",
-            image_url: "wefjwefwefwef",
-            alt: "describe"
+            alt: "Pad Thai"
             },
             {
             persId: "homebody",
-            image_url: "wefjwefwefwef",
-            alt: "describe"
+            image_url: "public/images/Thailand_kai_yang.jpeg",
+            alt: "Grilled Chicken, Kai Yang"
             },
             {
-            persId: "adventurer",
-            image_url: "wefjwefwefwef",
-            alt: "describe"
+            persId: "sweet",
+            image_url: "public/images/Thailand_mooncake.jpeg",
+            alt: "Mooncake"
+            },
+            {
+            persId: "spicy",
+            image_url: "public/images/Thailand_green_curry.jpeg",
+            alt: "Thai Green Curry"
             },
         ]
     },
@@ -151,26 +151,26 @@ const myArray = [
         images: [
             {
             // for the Personality
-            persId: "spicy",
+            persId: "adventurer",
             //URL for choice. Do path from folder
-            image_url: "ogijerwoigjeroigjr",
+            image_url: "public/images/Moroccan_Pastilla.jpeg",
             //describes image
-            alt: "fwfwefwefwef"
-            },
-            {
-            persId: "basic",
-            image_url: "wefjwefwefwef",
-            alt: "describe"
+            alt: "Pastilla"
             },
             {
             persId: "homebody",
-            image_url: "wefjwefwefwef",
-            alt: "describe"
+            image_url: "public/images/Morrocan_couscous.jpegv",
+            alt: "Couscous"
             },
             {
-            persId: "adventurer",
-            image_url: "wefjwefwefwef",
-            alt: "describe"
+            persId: "sweet",
+            image_url: "public/images/Morrocan_chebakia.jpeg",
+            alt: "Chebakia"
+            },
+            {
+            persId: "spicy",
+            image_url: "public/images/Morrocan_Taktouka.jpeg",
+            alt: "Taktouka"
             },
         ]
     },
@@ -180,26 +180,26 @@ const myArray = [
         images: [
             {
             // for the Personality
-            persId: "spicy",
+            persId: "adventurer",
             //URL for choice. Do path from folder
-            image_url: "ogijerwoigjeroigjr",
+            image_url: "public/images/Poland-blood sausage.jpeg",
             //describes image
-            alt: "fwfwefwefwef"
-            },
-            {
-            persId: "basic",
-            image_url: "wefjwefwefwef",
-            alt: "describe"
+            alt: "Blood Sausage"
             },
             {
             persId: "homebody",
-            image_url: "wefjwefwefwef",
-            alt: "describe"
+            image_url: "public/images/Poland-Pierogi.jpeg",
+            alt: "Pierogi"
             },
             {
-            persId: "adventurer",
-            image_url: "wefjwefwefwef",
-            alt: "describe"
+            persId: "sweet",
+            image_url: "public/images/Poland-babka.jpeg",
+            alt: "Babka"
+            },
+            {
+            persId: "spicy",
+            image_url: "public/images/Poland-spicypolish.jpeg",
+            alt: "Spicy Polish peppers and meat"
             },
         ]
     },
@@ -209,26 +209,26 @@ const myArray = [
         images: [
             {
             // for the Personality
-            persId: "spicy",
+            persId: "adventurer",
             //URL for choice. Do path from folder
-            image_url: "ogijerwoigjeroigjr",
+            image_url: "public/images/Israeli- Shawarma.jpg",
             //describes image
-            alt: "fwfwefwefwef"
-            },
-            {
-            persId: "basic",
-            image_url: "wefjwefwefwef",
-            alt: "describe"
+            alt: "Shawarma"
             },
             {
             persId: "homebody",
-            image_url: "wefjwefwefwef",
-            alt: "describe"
+            image_url: "public/images/Israeli- Hummus.jpg",
+            alt: "Hummus"
             },
             {
-            persId: "adventurer",
-            image_url: "wefjwefwefwef",
-            alt: "describe"
+            persId: "sweet",
+            image_url: "public/images/Israeli-Rugelach.jpg",
+            alt: "Rugelach"
+            },
+            {
+            persId: "spicy",
+            image_url: "public/images/Israeli- Shakshouka.jpg",
+            alt: "Shakshouka"
             },
         ]
     },
@@ -238,26 +238,55 @@ const myArray = [
         images: [
             {
             // for the Personality
-            persId: "spicy",
+            persId: "adventurer",
             //URL for choice. Do path from folder
-            image_url: "ogijerwoigjeroigjr",
+            image_url: "public/images/India-tandoori chicken.jpeg",
             //describes image
-            alt: "fwfwefwefwef"
-            },
-            {
-            persId: "basic",
-            image_url: "wefjwefwefwef",
-            alt: "describe"
+            alt: "Tandoori Chicken"
             },
             {
             persId: "homebody",
-            image_url: "wefjwefwefwef",
-            alt: "describe"
+            image_url: "public/images/India-dal.jpg",
+            alt: "Dal"
             },
             {
+            persId: "sweet",
+            image_url: "public/images/India-Jalebi.jpeg",
+            alt: "Jalebi"
+            },
+            {
+            persId: "spicy",
+            image_url: "public/images/India-ButterChicken.jpeg",
+            alt: "Butter Chicken"
+            },
+        ]
+    },
+    {   
+        //Australia
+        group: 10,
+        images: [
+            {
+            // for the Personality
             persId: "adventurer",
-            image_url: "wefjwefwefwef",
-            alt: "describe"
+            //URL for choice. Do path from folder
+            image_url: "public/images/Australia-vegemitetoast.jpeg",
+            //describes image
+            alt: "Vegmite Toast"
+            },
+            {
+            persId: "homebody",
+            image_url: "public/images/Australia-avotoast.jpg",
+            alt: "Avocado Toast"
+            },
+            {
+            persId: "sweet",
+            image_url: "public/images/Australia-hot jam donuts.jpeg",
+            alt: "Hot Jam Donuts"
+            },
+            {
+            persId: "spicy",
+            image_url: "public/images/Australia-green curry chicken pie.jpeg",
+            alt: "Green Curry Chicken Pie"
             },
         ]
     },
