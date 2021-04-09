@@ -6,16 +6,18 @@ const loginFormHandler = async (event) => {
     const email = document.querySelector('#email-login').value.trim();
     const password = document.querySelector('#password-login').value.trim();
   
+  console.log(email, password)
+
     if (email && password) {
       // Send the e-mail and password to the server
       const response = await fetch('/login', {
         method: 'POST',
-        body: JSON.stringify({ email, password }),
+        body: JSON.stringify ({ email, password }),
         headers: { 'Content-Type': 'application/json' },
       });
   
       if (response.ok) {
-        document.location.replace('/');
+        document.location.replace('/food');
       } else {
         alert('Failed to log in');
       }
@@ -23,6 +25,6 @@ const loginFormHandler = async (event) => {
   };
   
   document
-    .querySelector('.login-form')
-    .addEventListener('submit', loginFormHandler);
+    .querySelector('#login-btn')
+    .addEventListener('click', loginFormHandler);
   
