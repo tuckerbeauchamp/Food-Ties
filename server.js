@@ -3,9 +3,10 @@ const app = express();
 const path = require("path");
 const exphbs = require('express-handlebars');
 
-const PORT = process.env.PORT || 7500;
 // const sequelize = require('./config/connection');
 const hbs = exphbs.create({});
+
+const PORT = process.env.PORT || 7500;
 
 //Middleware
 app.engine('handlebars', hbs.engine);
@@ -321,4 +322,4 @@ const myArray = [
     },
 ];
 fixPath(myArray)
-console.log(myArray[0])
+// console.log(myArray[0])
