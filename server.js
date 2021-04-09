@@ -51,14 +51,14 @@ passport.use(
 
 
 // Route, redirect sends to specific place, flash message give specific feedback on error
-app.post(
-  "/login",
-  passport.authenticate("local", {
-    successRedirect: "/",
-    failureRedirect: "/login",
-    failureFlash: true,
-  })
-);
+// app.post(
+//   "/login",
+//   passport.authenticate("local", {
+//     successRedirect: "/",
+//     failureRedirect: "/login",
+//     failureFlash: true,
+//   })
+// );
 
 
 // parameter

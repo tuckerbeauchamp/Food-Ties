@@ -41,9 +41,11 @@ router.post("/signup", async(req, res) => {
  });
 
 router.post('/login', async (req, res) => {
-  try {
+  // try {
     // Find the user who matches the posted e-mail address
+    console.log(req.body)
     const userData = await User.findOne({ where: { email: req.body.email } });
+    console.log("ufwlpypulfpyuwlfp" + userData)
 
     if (!userData) {
       res
@@ -67,12 +69,12 @@ router.post('/login', async (req, res) => {
       req.session.user_id = userData.id;
       req.session.logged_in = true;
       
-      res.json({ user: userData, message: 'You are now logged in!' });
     });
-
-  } catch (err) {
-    res.status(400).json(err);
-  }
+    
+    res.json({ user: userData, message: 'You are now logged in!' });
+  // } catch (err) {
+  //   res.status(405).json(err);
+  // }
 });
 
 router.post('/logout', (req, res) => {
