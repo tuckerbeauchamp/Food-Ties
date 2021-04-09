@@ -5,8 +5,40 @@ const myArray = require("../utils/data");
 
 router.get('/', withAuth, (req, res) => {
 
-  res.render("homepage", { data: myArray });
 });
+
+router.get('/food', (req, res) => {
+  res.render("food", { data: myArray });
+});
+
+router.get('/login', (req, res) => {
+  return res.render("login")
+});
+
+router.get('/signup', (req, res) => {
+  res.render("signup")
+})
+
+router.post("/signup", async(req, res) => {
+  try{
+   const addUser = await User.create({
+     //expects username, email, password
+     name: req.body.name,
+     email: req.body.email,
+     password: req.body.password,
+   })
+       //save the data into a session
+       req.session.save(() => {
+         //date from add user to session
+         req.session.id = addUser.id;
+         req.session.name = addUser.name;
+         req.session.loggedIn = true;
+         res.json(addUser);
+       });
+     }catch(err){
+       res.status(500).json(err);
+     };
+ });
 
 router.post('/login', async (req, res) => {
   try {
