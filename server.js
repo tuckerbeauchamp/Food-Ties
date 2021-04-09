@@ -3,9 +3,10 @@ const app = express();
 const path = require("path");
 const exphbs = require('express-handlebars');
 
-const PORT = process.env.PORT || 7500;
 // const sequelize = require('./config/connection');
 const hbs = exphbs.create({});
+
+const PORT = process.env.PORT || 7500;
 
 //Middleware
 app.engine('handlebars', hbs.engine);
@@ -188,7 +189,7 @@ const myArray = [
             },
             {
             persId: "homebody",
-            image_url: "public/images/Morrocan_couscous.jpegv",
+            image_url: "public/images/Morrocan_couscous.jpeg",
             alt: "Couscous"
             },
             {
@@ -211,7 +212,7 @@ const myArray = [
             // for the Personality
             persId: "adventurer",
             //URL for choice. Do path from folder
-            image_url: "public/images/Poland-blood sausage.jpeg",
+            image_url: "public/images/Poland-blood-sausage.jpeg",
             //describes image
             alt: "Blood Sausage"
             },
@@ -240,13 +241,13 @@ const myArray = [
             // for the Personality
             persId: "adventurer",
             //URL for choice. Do path from folder
-            image_url: "public/images/Israeli- Shawarma.jpg",
+            image_url: "public/images/Israeli-Shawarma.jpg",
             //describes image
             alt: "Shawarma"
             },
             {
             persId: "homebody",
-            image_url: "public/images/Israeli- Hummus.jpg",
+            image_url: "public/images/Israeli-Hummus.jpg",
             alt: "Hummus"
             },
             {
@@ -256,7 +257,7 @@ const myArray = [
             },
             {
             persId: "spicy",
-            image_url: "public/images/Israeli- Shakshouka.jpg",
+            image_url: "public/images/Israeli-Shakshouka.jpg",
             alt: "Shakshouka"
             },
         ]
@@ -269,7 +270,7 @@ const myArray = [
             // for the Personality
             persId: "adventurer",
             //URL for choice. Do path from folder
-            image_url: "public/images/India-tandoori chicken.jpeg",
+            image_url: "public/images/India-tandoori-chicken.jpeg",
             //describes image
             alt: "Tandoori Chicken"
             },
@@ -309,16 +310,16 @@ const myArray = [
             },
             {
             persId: "sweet",
-            image_url: "public/images/Australia-hot jam donuts.jpeg",
+            image_url: "public/images/Australia-hot-jam-donuts.jpeg",
             alt: "Hot Jam Donuts"
             },
             {
             persId: "spicy",
-            image_url: "public/images/Australia-green curry chicken pie.jpeg",
+            image_url: "public/images/Australia-green-curry-chicken-pie.jpeg",
             alt: "Green Curry Chicken Pie"
             },
         ]
     },
 ];
 fixPath(myArray)
-console.log(myArray[0])
+// console.log(myArray[0])
