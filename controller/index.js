@@ -1,10 +1,9 @@
-const router = require("express");
+// const router = require("express").Router();
 
-// use express router
-const router = require("express").Router();
+// const myArray = require("../utils/data");
 
-app.get("/", function (req, res) {
-  res.render("homepage", { data: myArray });
-});
+// router.get("/", function (req, res) {
+//   res.render("homepage", { data: myArray });
+// });
 
-module.exports = router;
+// module.exports = router;
