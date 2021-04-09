@@ -4,6 +4,7 @@ const path = require("path");
 const exphbs = require("express-handlebars");
 const routes = require("./controller/userRoute");
 const session = require("express-session");
+const passport = require("passport"), LocalStrategy = require("passport-local").Strategy;
 
 // const sequelize = require('./config/connection');
 const hbs = exphbs.create({});
@@ -18,7 +19,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
 app.use(routes);
 
-app.use(session({ secret: "cats" }));
+app.use(session({ secret: "cats", resave: true, saveUninitialized: true }));
 app.use(passport.initialize());
 app.use(passport.session());
 
@@ -26,7 +27,7 @@ app.use(passport.session());
 app.listen(PORT, () => console.log("App listening on port " + PORT));
 
 // configure
-const passport = require("passport"), LocalStrategy = require("passport-local").Strategy;
+
 
 
 //   supplies the configuration with strategies
