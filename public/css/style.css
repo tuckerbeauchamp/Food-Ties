@@ -1,0 +1,12 @@
+.jumbotron h1{
+text-align: center;
+}
+
+.jumbotron .container {
+    text-align: center;
+}
+
+.jumbotron {
+background-color: skyblue;
+}
+
