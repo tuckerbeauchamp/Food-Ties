@@ -8,10 +8,11 @@
     <title>Food Ties</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-   
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
+auth
     {{#if logged_in}}
     <nav>
       <button class="btn" id="logout">logout</button>
@@ -19,7 +20,19 @@
     {{/if}}
 
     {{{ body }}}
+=======
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Food Ties</h1>
+            <p class="lead">Welcome to Food Ties, where you can find out what foods tie to your personality! Just select one option from
+            each group and you'll find out your personality at the end!</p>
+        </div>
+    </div>
+   
+main
 
+
+    {{{ body }}}
 </body>
 
 </html>
