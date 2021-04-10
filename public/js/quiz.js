@@ -12,6 +12,16 @@ $(".card-body").on("click", function (event){
     $(curIdString).addClass("d-none")
     questionIndex++
     //if ++ is 10 then do route call to backend to figure out which was best match
+    //if points are from 10-17, personality is ADVENTURER
+    //else if points are from 18-25, HOMEBODY
+    //else if points are from 26-33, SPICY
+    //else if points are from 34-40, SWEET
+    if (score >= 10 <= 17) {
+        //return adventurer
+        return 
+    } else {
+        
+    }
     //return info that will render new handlebars page. personality?
 })
 
