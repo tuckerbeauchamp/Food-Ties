@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { User } = require('../models');
+const { User, Personality } = require('../models');
 const withAuth = require('../utils/auth');
 const myArray = require("../utils/data");
 // const foodDb = require(models)
@@ -17,6 +17,8 @@ router.get('/login', (req, res) => {
 });
 
 router.get('/personality', (req, res) => {
+  // const person = await Personality.findOne({where: {id: req.user.personality_id} })n
+  console.log(req.user.id);
   return res.render("personality")
 })
 

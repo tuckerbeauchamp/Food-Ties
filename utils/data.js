@@ -16,7 +16,6 @@ const myArray = [
         persId2: 1,
         //URL for choice. Do path from folder
         image_url: "public/images/American_chickenandwaffles.jpg",
-        pers_url: "public/personality-images/tightrope.jpeg",
         //describes image
         alt: "Chicken and Waffles ",
       },
