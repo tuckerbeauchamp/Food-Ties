@@ -13,6 +13,7 @@ const myArray = [
       {
         // for the Personality
         persId: "adventurer",
+        persId2: 1,
         //URL for choice. Do path from folder
         image_url: "public/images/American_chickenandwaffles.jpg",
         //describes image
@@ -20,16 +21,19 @@ const myArray = [
       },
       {
         persId: "homebody",
+        persId2: 2,
         image_url: "public/images/American_hamburger.jpeg",
         alt: "Hamburger",
       },
       {
         persId: "sweet",
+        persId2: 3,
         image_url: "public/images/American_smores.jpg",
         alt: "S'more",
       },
       {
         persId: "spicy",
+        persId2: 4,
         image_url: "public/images/American_hotwings.jpg",
         alt: "Hot Wings",
       },
@@ -42,6 +46,7 @@ const myArray = [
       {
         // for the Personality
         persId: "adventurer",
+        persId2: 1,
         //URL for choice. Do path from folder
         image_url: "public/images/Russian-beef-stroganoff.jpg",
         //describes image
@@ -49,16 +54,19 @@ const myArray = [
       },
       {
         persId: "homebody",
+        persId2: 2,
         image_url: "public/images/Russian-Borscht.jpg",
         alt: "Borscht",
       },
       {
         persId: "sweet",
+        persId2: 3,
         image_url: "public/images/Russian_blini.jpg",
         alt: "Blini",
       },
       {
         persId: "spicy",
+        persId2: 4,
         image_url: "public/images/Russian-soup.jpg",
         alt: "Spicy Soup",
       },
@@ -71,6 +79,7 @@ const myArray = [
       {
         // for the Personality
         persId: "adventurer",
+        persId2: 1,
         //URL for choice. Do path from folder
         image_url: "public/images/Japan_sushi.jpg",
         //describes image
@@ -78,16 +87,19 @@ const myArray = [
       },
       {
         persId: "homebody",
+        persId2: 2,
         image_url: "public/images/Japan_ramen.jpg",
         alt: "Ramen",
       },
       {
         persId: "sweet",
+        persId2: 3,
         image_url: "public/images/Japan_mochi.jpeg",
         alt: "Mochi",
       },
       {
         persId: "spicy",
+        persId2: 4,
         image_url: "public/images/Japan_chickenkatsu.jpg",
         alt: "Chicken Katsu",
       },
@@ -100,6 +112,7 @@ const myArray = [
       {
         // for the Personality
         persId: "adventurer",
+        persId2: 1,
         //URL for choice. Do path from folder
         image_url: "public/images/Italian_lasagna.jpeg",
         //describes image
@@ -107,16 +120,19 @@ const myArray = [
       },
       {
         persId: "homebody",
+        persId2: 2,
         image_url: "public/images/Italian_chickenandpolenta.jpeg",
         alt: "Chicken and Polenta",
       },
       {
         persId: "sweet",
+        persId2: 3,
         image_url: "public/images/Italian_tiramisu.jpeg",
         alt: "Tiramisu",
       },
       {
         persId: "spicy",
+        persId2: 4,
         image_url: "public/images/Italian_penne_all.jpeg",
         alt: "Penne all'arrabbiata ",
       },
@@ -129,6 +145,7 @@ const myArray = [
       {
         // for the Personality
         persId: "adventurer",
+        persId2: 1,
         //URL for choice. Do path from folder
         image_url: "public/images/Thailand_padthai.jpeg",
         //describes image
@@ -136,16 +153,19 @@ const myArray = [
       },
       {
         persId: "homebody",
+        persId2: 2,
         image_url: "public/images/Thailand_kai_yang.jpeg",
         alt: "Grilled Chicken, Kai Yang",
       },
       {
         persId: "sweet",
+        persId2: 3,
         image_url: "public/images/Thailand_mooncake.jpeg",
         alt: "Mooncake",
       },
       {
         persId: "spicy",
+        persId2: 4,
         image_url: "public/images/Thailand_green_curry.jpeg",
         alt: "Thai Green Curry",
       },
@@ -158,6 +178,7 @@ const myArray = [
       {
         // for the Personality
         persId: "adventurer",
+        persId2: 1,
         //URL for choice. Do path from folder
         image_url: "public/images/Moroccan_Pastilla.jpeg",
         //describes image
@@ -165,16 +186,19 @@ const myArray = [
       },
       {
         persId: "homebody",
+        persId2: 2,
         image_url: "public/images/Morrocan_couscous.jpeg",
         alt: "Couscous",
       },
       {
         persId: "sweet",
+        persId2: 3,
         image_url: "public/images/Morrocan_chebakia.jpeg",
         alt: "Chebakia",
       },
       {
         persId: "spicy",
+        persId2: 4,
         image_url: "public/images/Morrocan_Taktouka.jpeg",
         alt: "Taktouka",
       },
@@ -187,6 +211,7 @@ const myArray = [
       {
         // for the Personality
         persId: "adventurer",
+        persId2: 1,
         //URL for choice. Do path from folder
         image_url: "public/images/Poland-blood-sausage.jpeg",
         //describes image
@@ -194,16 +219,19 @@ const myArray = [
       },
       {
         persId: "homebody",
+        persId2: 2,
         image_url: "public/images/Poland-Pierogi.jpeg",
         alt: "Pierogi",
       },
       {
         persId: "sweet",
+        persId2: 3,
         image_url: "public/images/Poland-babka.jpeg",
         alt: "Babka",
       },
       {
         persId: "spicy",
+        persId2: 4,
         image_url: "public/images/Poland-spicypolish.jpeg",
         alt: "Spicy Polish peppers and meat",
       },
@@ -216,6 +244,7 @@ const myArray = [
       {
         // for the Personality
         persId: "adventurer",
+        persId2: 1,
         //URL for choice. Do path from folder
         image_url: "public/images/Israeli-Shawarma.jpg",
         //describes image
@@ -223,16 +252,19 @@ const myArray = [
       },
       {
         persId: "homebody",
+        persId2: 2,
         image_url: "public/images/Israeli-Hummus.jpg",
         alt: "Hummus",
       },
       {
         persId: "sweet",
+        persId2: 3,
         image_url: "public/images/Israeli-Rugelach.jpg",
         alt: "Rugelach",
       },
       {
         persId: "spicy",
+        persId2: 4,
         image_url: "public/images/Israeli-Shakshouka.jpg",
         alt: "Shakshouka",
       },
@@ -245,6 +277,7 @@ const myArray = [
       {
         // for the Personality
         persId: "adventurer",
+        persId2: 1,
         //URL for choice. Do path from folder
         image_url: "public/images/India-tandoori-chicken.jpeg",
         //describes image
@@ -252,16 +285,19 @@ const myArray = [
       },
       {
         persId: "homebody",
+        persId2: 2,
         image_url: "public/images/India-dal.jpg",
         alt: "Dal",
       },
       {
         persId: "sweet",
+        persId2: 3,
         image_url: "public/images/India-Jalebi.jpeg",
         alt: "Jalebi",
       },
       {
         persId: "spicy",
+        persId2: 4,
         image_url: "public/images/India-ButterChicken.jpeg",
         alt: "Butter Chicken",
       },
@@ -274,6 +310,7 @@ const myArray = [
       {
         // for the Personality
         persId: "adventurer",
+        persId2: 1,
         //URL for choice. Do path from folder
         image_url: "public/images/Australia-vegemitetoast.jpeg",
         //describes image
@@ -281,16 +318,19 @@ const myArray = [
       },
       {
         persId: "homebody",
+        persId2: 2,
         image_url: "public/images/Australia-avotoast.jpg",
         alt: "Avocado Toast",
       },
       {
         persId: "sweet",
+        persId2: 3,
         image_url: "public/images/Australia-hot-jam-donuts.jpeg",
         alt: "Hot Jam Donuts",
       },
       {
         persId: "spicy",
+        persId2: 4,
         image_url: "public/images/Australia-green-curry-chicken-pie.jpeg",
         alt: "Green Curry Chicken Pie",
       },
