@@ -12,7 +12,7 @@ router.post("/signup", async (req, res) => {
     //save the data into a session
     req.session.save(() => {
       //date from add user to session
-      req.session.id = addUser.id;
+      req.session.userId = addUser.id;
       req.session.name = addUser.name;
       req.session.loggedIn = true;
       res.json(addUser);
@@ -26,7 +26,7 @@ router.post("/login", async (req, res) => {
   // try {
   // Find the user who matches the posted e-mail address
   const userData = await User.findOne({ where: { email: req.body.email } });
-  console.log("ufwlpypulfpyuwlfp" + userData);
+  console.log("USER", userData);
 
   if (!userData) {
     res
@@ -37,6 +37,7 @@ router.post("/login", async (req, res) => {
 
   // Verify the posted password with the password store in the database
   const validPassword = await userData.checkPassword(req.body.password);
+  console.log(validPassword);
 
   if (!validPassword) {
     res
@@ -47,11 +48,11 @@ router.post("/login", async (req, res) => {
 
   // Create session variables based on the logged in user
   req.session.save(() => {
-    req.session.user_id = userData.id;
+    req.session.userId = userData.id;
     req.session.loggedIn = true;
+    res.json({ user: userData, message: "You are now logged in!" });
   });
 
-  res.json({ user: userData, message: "You are now logged in!" });
   // } catch (err) {
   //   res.status(405).json(err);
   // }

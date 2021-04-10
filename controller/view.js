@@ -7,10 +7,14 @@ router.get("/", withAuth, (req, res) => {
 });
 
 router.get("/food", withAuth, (req, res) => {
-  res.render("food", { data: myArray });
+  console.log(req.session);
+  res.render("food", { data: myArray, loggedIn: req.session.loggedIn });
 });
 
 router.get("/login", (req, res) => {
+  if (req.session.loggedIn) {
+    return res.redirect("/food");
+  }
   return res.render("login");
 });
 

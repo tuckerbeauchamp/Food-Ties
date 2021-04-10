@@ -19,11 +19,20 @@ $(".card-body").on("click", function (event) {
   //else if points are from 34-40, SWEET
   //if questionIndex === numOfQuestions, call function (determine when we're on last question)
   if (questionIndex === numOfQuestions) {
-  
     // send the data to the server
     // store the result for the user
     // redirect the user to the personality page
-
+    fetch("/api/quiz", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ score }),
+    })
+      .then((res) => res.json())
+      .then(function (data) {
+        console.log(data);
+      });
   }
 });
 
