@@ -35,14 +35,14 @@ User.init(
         len: [8],
       }, 
     },
-    //   personality_id:{
-    //     type: DataTypes.INTEGER,
-    //     allowNull: true,
-    //     references:{
-    //       model: "personality",
-    //       key: "id"
-    //     }
-    // },
+      personality_id:{
+        type: DataTypes.INTEGER,
+        allowNull: true,
+        references:{
+          model: "personality",
+          key: "id"
+        }
+    },
   },
     {
     hooks: {
