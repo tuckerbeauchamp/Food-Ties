@@ -7,3 +7,9 @@
 // });
 
 // module.exports = router;
+
+// const apiRoutes = require('./api);
+// const homeRoutes = require('./userRoute);
+
+//router.use('/', homeRoutes);  // renders the pages
+// router.use('/api', apiRoutes);   // deals with the data
