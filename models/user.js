@@ -33,10 +33,18 @@ User.init(
       allowNull: false,
       validate: {
         len: [8],
-      },
+      }, 
     },
+    //   personality_id:{
+    //     type: DataTypes.INTEGER,
+    //     allowNull: true,
+    //     references:{
+    //       model: "personality",
+    //       key: "id"
+    //     }
+    // },
   },
-  {
+    {
     hooks: {
       beforeCreate: async (newUserData) => {
         newUserData.password = await bcrypt.hash(newUserData.password, 10);
