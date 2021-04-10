@@ -3,6 +3,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const exphbs = require("express-handlebars");
+// const routes = require("./controller/userRoute")
 const routes = require("./controller/userRoute");
 const passport = require("passport"), LocalStrategy = require("passport-local").Strategy;
 
@@ -18,13 +19,15 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
 app.use(session({ secret: "cats", resave: true, saveUninitialized: true }));
-app.use(routes);
+// app.use(routes);
+app.use(routes)
 
 app.use(passport.initialize());
 app.use(passport.session());
 
 
 app.listen(PORT, () => console.log("App listening on port " + PORT));
+
 
 // configure
 

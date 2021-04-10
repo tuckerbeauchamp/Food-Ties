@@ -2,9 +2,10 @@ const router = require('express').Router();
 const { User } = require('../models');
 const withAuth = require('../utils/auth');
 const myArray = require("../utils/data");
+// const foodDb = require(models)
 
 router.get('/', withAuth, (req, res) => {
-
+  //foodDb.findAll((data) => { do stuff with data })
 });
 
 router.get('/food', (req, res) => {
@@ -89,3 +90,9 @@ router.post('/logout', (req, res) => {
 });
 
 module.exports = router;
+// module.exports = function (app) {
+//   app.get("/signup", (req, res) => {
+//     console.log("going to signup")
+//     res.render("signup");
+//   })
+// }
