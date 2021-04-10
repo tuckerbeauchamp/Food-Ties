@@ -17,28 +17,32 @@ $(".card-body").on("click", function (event) {
   //else if points are from 26-33, SPICY
   //else if points are from 34-40, SWEET
   //if questionIndex = 10, call function (determine when we're on last question)
+  if ((questionIndex === 9)) {
+    genPers()
+    $(nextIdString).removeClass("d-none");
+    $(curIdString).addClass("d-none");
+  }
 });
 
 //create new function with score. will determine what their personality is
 //generates personality for user
 function genPers() {
   switch (score) {
-    case 10 - 17:
+    case score >= 10 && score <= 17:
       personality = "Adventurer";
       break;
-    case 18 - 25:
+    case score >= 18 && score <= 25:
       personality = "Homebody";
       break;
-    case 26 - 33:
+    case score >= 26 && score <= 33:
       personality = "Sweet";
       break;
-    case 34 - 40:
+    case score >= 34 && score <= 40:
       personality = "Spicy";
       break;
-      default:
+    default:
   }
 }
-//switch will generate
 //return info that will render new handlebars page. personality?
 
 //click start button, it will remove d-none from first div for question
