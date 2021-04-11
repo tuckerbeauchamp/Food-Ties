@@ -1,0 +1,32 @@
+<div>Hello World!</div>
+
+<div id="messages"></div>
+<form id="message-form">
+    <input type="text" id="msg">
+    <button>Submit</button>
+</form>
+
+<script src="/js/socket.io"></script>
+
+<script>
+    const socket = io();
+    const msgForm = document.querySelector("#message-form");
+    const msgInput = document.querySelector("#msg");
+    const msgContainer = document.querySelector("#messages");
+    msgForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const text = msg.value;
+        socket.emit("message", text);
+    });
+
+    socket.on("message", ({ user, text }) => {
+        console.log(user, text);
+        buildMsg({ user, text })
+    });
+
+    function buildMsg({ user, text }) {
+        const $div = document.createElement("div");
+        $div.textContent = `${user.name}: ${text}`;
+        msgContainer.appendChild($div)
+    }
+</script>

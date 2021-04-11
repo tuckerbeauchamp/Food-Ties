@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { User, Personality } = require("../../models");
+const { User } = require("../../models");
 
 router.post("/signup", async (req, res) => {
   try {
@@ -37,7 +37,6 @@ router.post("/login", async (req, res) => {
 
   // Verify the posted password with the password store in the database
   const validPassword = await userData.checkPassword(req.body.password);
-  console.log(validPassword);
 
   if (!validPassword) {
     res
@@ -52,10 +51,6 @@ router.post("/login", async (req, res) => {
     req.session.loggedIn = true;
     res.json({ user: userData, message: "You are now logged in!" });
   });
-
-  // } catch (err) {
-  //   res.status(405).json(err);
-  // }
 });
 
 router.post("/logout", (req, res) => {
